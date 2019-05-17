@@ -6,11 +6,11 @@ header: Posts By Category
 
 <div class="container docs-container">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-2">
       <div class="sidebar hidden-print" role="complementary">
         <div id="navigation">
         	<h1>目录</h1>
-      		<ul class="nav sidenav">
+      		<ul style="font-size:16px" class="nav sidenav">
 				{% if site.categories.first[0] == null %}
 					{% for category in site.categories %} 
 				    	<li><a href="#{{ category }}-ref">
@@ -34,7 +34,7 @@ header: Posts By Category
           <div class="home">
 			{% for category in site.categories %} 
 			  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-			  <ul>
+			  <ul style="font-size:18px">
 			    {% assign pages_list = category[1] %}  
 			    {% include LessOrMore/pages_list %}
 			  </ul>
