@@ -1,12 +1,12 @@
 # Site settings
-name: 爱的发射点
+name: 发射点
 email: ichangjian@163.com
-author: XXXX
-url: http://www.hifreud.com
+author: Pupil
+url: http://www.ichangjian.com
 resume_site: https://www.linkedin.com/in/inchangjian/
 github: https://github.com/ichangjian/
 baseurl: ""
-description: Actually, less is more!
+description: 和赛音媤的约会
 meta_description: my blog
 # motto: It's our wits that make us men.
 # banner: 学而不思则罔，思而不学则殆。

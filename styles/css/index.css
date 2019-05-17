@@ -6320,7 +6320,7 @@ hr {
 }
 /* Page headers */
 .docs-header {
-  padding: 30px 15px 50px;
+  padding: 18px 12px 30px;
   /* side padding builds on .container 15px, so 30px */
   font-size: 16px;
   text-align: center;
@@ -6342,14 +6342,14 @@ hr {
     text-align: left;
   }
   .docs-header h1 {
-    font-size: 60px;
+    font-size: 48px;
     line-height: 1;
   }
 }
 @media (min-width: 992px) {
   .docs-header h1,
   .docs-header p {
-    margin-right: 380px;
+    margin-right: 240px;
   }
 }
 .footer {
