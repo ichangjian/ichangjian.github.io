@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "更新AprilTag3可识别Aprilgrid"
+title:  "更新AprilTag3可识别Kalibr的Aprilgrid"
 date:   2020-04-09 21:38:05 +0800
 categories: 计算机视觉
 tag: SLAM
@@ -18,4 +18,6 @@ tag: SLAM
 3. 2019年[Flexible Layouts for Fiducial Tags](https://april.eecs.umich.edu/papers/details.php?name=krogius2019iros)
 
 
-我的[更新的Apriltag](https://github.com/ichangjian/apriltag)，是在[Apriltag3](https://github.com/AprilRobotics/apriltag)的基础上增加了“tagGrid36h11”，tagGrid36h11是在tag36h11的基础上增加了对黑色边框宽度的定义，并在**apriltag_quad_thresh_params**结构体中增加了**erode**变量控制**threshold**函数对图像进行腐蚀操作。测试下来对Aprilgrid识别的召回率和速度均有不同程度的提升。
+我的[更新的Apriltag](https://github.com/ichangjian/apriltag)，是在[Apriltag3](https://github.com/AprilRobotics/apriltag)的基础上增加了“tagGrid36h11”，tagGrid36h11是在tag36h11的基础上增加了对黑色边框宽度的定义，并在**apriltag_quad_thresh_params**结构体中增加了**erode**变量控制**threshold**函数对图像黑色区域进行腐蚀操作。测试下来对Aprilgrid识别的召回率和速度均有不同程度的提升。
+
+将Apriltag3更新到了Kalibr中，并把它命名成了[Kalibr2](https://github.com/ichangjian/kalibr2)。
